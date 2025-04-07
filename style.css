@@ -1,0 +1,276 @@
+h1,h2,h3{
+    font-family:BodyFont;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    transition:0.3s;
+}
+
+h3{
+    font-weight: bold;
+}
+
+h1:hover,h2:hover,h3:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+}
+p{
+    font-family:BodyFont;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+strong{
+    font-family:BodyFont;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+span{
+    margin-top: 50px;
+    font-family:BodyFont;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+button{
+    font-family:BodyFont;
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    border-style: solid;
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url("Antonio-Regular.ttf");
+}
+
+@font-face {
+    font-family: BodyFont;
+    src: url("Poppins-Regular.ttf");
+}
+
+.menuP{
+    margin: 20px;
+    font-family: BodyFont;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.menuP:nth-of-type(even):hover{
+    cursor: pointer;
+    transform: rotate(-2deg) scale(1.1);
+    transition: 0.3s;
+}
+.menuP:nth-of-type(odd):hover{
+    cursor: pointer;
+    transform: rotate(2deg) scale(1.1);
+    transition: 0.3s;
+}
+.menuPWhite:nth-of-type(even):hover{
+    cursor: pointer;
+    transform: rotate(-2deg) scale(1.1);
+    transition: 0.3s;
+}
+.menuPWhite:nth-of-type(odd):hover{
+    cursor: pointer;
+    transform: rotate(2deg) scale(1.1);
+    transition: 0.3s;
+}
+
+.menuPWhite{
+    margin: 20px;
+    font-family: BodyFont;
+    padding: 10px;
+    transition: 0.7s;
+}
+
+.memberDiv{
+    border-style:solid; 
+    border-radius: 10px; 
+    border-width: 2px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+    width: fit-content;
+    transition: 0.5s;
+}
+.memberDiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: white;
+}
+.memberDiv:hover p{
+    color: transparent; 
+
+}
+.memberDiv:nth-of-type(even):hover{
+    transform: rotate(2deg) scale(1.05);
+}
+.memberDiv:nth-of-type(odd):hover{
+    transform: rotate(-2deg) scale(1.05);
+}
+.memberDiv:hover .tiktokLink{
+    display: block;
+}
+.memberDiv img{
+    border-radius: 10px;
+    width: 100%;
+}
+.memberDiv:hover img{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.memberDiv:hover p{
+    margin: 1px;
+}
+.vehicleDiv{
+    border-style:solid; 
+    border-radius: 10px; 
+    border-width: 2px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+    transition: 0.3s;
+    max-width: 400px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+
+}
+.vehicleDiv img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vehicleDiv:nth-of-type(odd):hover{
+    transform: rotate(2deg) scale(1.03);
+}
+.vehicleDiv:nth-of-type(even):hover{
+    transform: rotate(-2deg) scale(1.03);
+}
+
+.tiktokLink{
+    display: none;
+}
+.newsDiv{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.singularNews{
+    border-style:solid; 
+    border-radius: 10px; 
+    border-width: 2px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+    transition: 0.5s;
+    width: 300px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+.eventsDiv{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.singularEvent{
+    border-style:solid; 
+    border-radius: 10px; 
+    border-width: 2px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+    transition: 0.5s;
+    width: 400px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.singularNews img{
+    border-radius: 10px;
+}
+
+.singularNews:nth-of-type(even):hover{
+    transform: rotate(-2deg) scale(1.05);
+}
+.singularNews:nth-of-type(odd):hover{
+    transform: rotate(2deg) scale(1.05);
+}
+
+.singularNews img {
+    width: 100%;
+}
+li{
+    font-family: BodyFont;
+}
+#darkModeButton{
+    transition: 0.3s;
+}
+#darkModeButton:hover{
+    transform: rotate(90deg);
+}
+
+.socialButton{
+    transition: .3s;
+}
+.socialButton:nth-of-type(odd):hover {
+    transform: rotate(-10deg) scale(1.1);
+}
+
+.socialButton:nth-of-type(even):hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.socialsDiv{
+    display: flex; 
+    align-items: center; 
+    border-bottom-style: solid; 
+    justify-content: center;
+}
+
+#logoBig{
+    transition: 0.3s;
+}
+#logoBig:hover{
+    transform: scale(1.1);
+}
+
+#lasseLaditschImg{
+    transition: 0.3s;
+}
+#lasseLaditschImg:hover{
+    transform: rotate(2deg) scale(1.05);
+    margin-bottom: 15px;
+}
+
+.emailDiv p {
+    display: none; /* Hide the text by default */
+}
+
+.emailDiv:hover p {
+    display: block;
+}
+
+#copyInfo{
+    font-size: 12px;
+    margin-top: 5px;
+    border-bottom-style: solid;
+    width: fit-content;
+}
+
+#emailA{
+    cursor: pointer;
+}

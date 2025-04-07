@@ -1,0 +1,37 @@
+{
+    "events":
+    [
+    {
+        "name":"OT-Treffen Wildenau",
+        "date":"SO 13-04-2025",
+        "address":"Sommergasse, 4933 Wildenau",
+        "distanceFromSchaerding":"37km",
+        "goByMoped":"vielleicht",
+        "link": "http://www.georgimarkt.at/"
+    },
+    {
+        "name":"OT-Treffen Perwang",
+        "date":"SO 28-04-2025 10:00",
+        "address":"Seestraße 11, 5166 Perwang",
+        "distanceFromSchaerding":"70km",
+        "goByMoped":"nein",
+        "link":"https://www.perwanger-oldtimer-verein.at/"
+    },
+    {
+        "name":"OT-Treffen Schloss Katzenberg",
+        "date":"SO 01-05-2025 09:00-14:00",
+        "address":"Katzenberg 1, 4982 Katzenberg",
+        "distanceFromSchaerding":"25km",
+        "goByMoped":"ja",
+        "link":"https://www.schloss-katzenberg.at/oldtimertag/"
+    },
+    {
+        "name":"OT-Messe Tulln",
+        "date":"SO 11-05-2025",
+        "address":"Katzenberg 1, 4982 Katzenberg",
+        "distanceFromSchaerding":"250km",
+        "goByMoped":"nein",
+        "link":"https://www.oldtimermesse.at/"
+    }
+    ]
+}
