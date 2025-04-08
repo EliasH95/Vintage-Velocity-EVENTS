@@ -12,16 +12,26 @@ async function buildEvents(){
         if(eventDate > Date.now()){
             const eventsDiv = document.createElement("div");
             eventsDiv.className = "singularEvent";
-        
-            const eventsTitle = document.createElement("h3");
+
+            const iframe = document.createElement("iframe");
+            iframe.src = events.iframe.split(" ")[0];
+            eventsDiv.appendChild(iframe);
+
+            const eventsTitle = document.createElement("h2");
             eventsTitle.textContent = events.name;
             eventsDiv.appendChild(eventsTitle);
     
             const eventsDate = document.createElement("p");
             eventsDate.textContent = events.date;
             eventsDiv.appendChild(eventsDate);
+
+            if(events.time != ""){
+                const eventsTime = document.createElement("p");
+                eventsTime.textContent = events.time;
+                eventsDiv.appendChild(eventsTime);
+            }
     
-            const eventsAddress = document.createElement("p");
+            const eventsAddress = document.createElement("strong");
             eventsAddress.textContent = events.address;
             eventsDiv.appendChild(eventsAddress);
     
@@ -29,17 +39,13 @@ async function buildEvents(){
             eventsDistanceFromSchaerding.textContent =  events.distanceFromSchaerding;
             eventsDiv.appendChild(eventsDistanceFromSchaerding);
     
-            const eventsGoByMoped = document.createElement("p");
-            eventsGoByMoped.textContent = "Mit Moped: " + events.goByMoped;
-            eventsDiv.appendChild(eventsGoByMoped);
-    
+           
             const eventsLink = document.createElement("p");
             const eventsLinkText = document.createElement("a");
             eventsLinkText.href = events.link;
             eventsLinkText.textContent = "Mehr Infos";
             eventsLink.appendChild(eventsLinkText);
             eventsDiv.appendChild(eventsLink);
-    
     
             completeEventsDiv.appendChild(eventsDiv);
         }

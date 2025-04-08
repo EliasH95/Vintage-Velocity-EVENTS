@@ -274,3 +274,10 @@ li{
 #emailA{
     cursor: pointer;
 }
+
+iframe{
+    width: 350px;
+    height: 250px;
+    border-color: black;
+    margin: 10px;
+}
