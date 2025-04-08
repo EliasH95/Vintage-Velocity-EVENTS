@@ -195,7 +195,7 @@ button{
     margin: 25px;
     text-align: center;
     transition: 0.5s;
-    width: 350px;
+    
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -276,8 +276,43 @@ li{
 }
 
 iframe{
-    width: 300px;
-    height: 250px;
     border-color: black;
     margin: 10px;
 }
+
+@media (max-width: 599px) {
+    .singularEvent {
+      width: 300px;
+      height: 600px;
+    }
+    iframe {
+        width: 250px;
+        height: 200px;
+      }
+  }
+  
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .singularEvent {
+        width: 400px;
+        height: 600px;
+      }
+      iframe {
+          width: 350px;
+          height: 250px;
+        }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1025px) {
+    .singularEvent {
+      width: 400px;
+      height: 600px;
+    }
+    iframe {
+        width: 350px;
+        height: 250px;
+      }
+  }
+
+ 
