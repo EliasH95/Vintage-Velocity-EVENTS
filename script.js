@@ -27,7 +27,11 @@ async function buildEvents(){
 
             if(events.time != ""){
                 const eventsTime = document.createElement("p");
-                eventsTime.textContent = events.time;
+                if(!String(events.time).includes("-")){
+                    eventsTime.textContent = "ab"
+                }
+                eventsTime.textContent +=  " " + events.time;
+                
                 eventsDiv.appendChild(eventsTime);
             }
     
@@ -36,7 +40,7 @@ async function buildEvents(){
             eventsDiv.appendChild(eventsAddress);
     
             const eventsDistanceFromSchaerding = document.createElement("p");
-            eventsDistanceFromSchaerding.textContent =  events.distanceFromSchaerding;
+            eventsDistanceFromSchaerding.textContent = events.distanceFromSchaerding + " von SD";
             eventsDiv.appendChild(eventsDistanceFromSchaerding);
     
            

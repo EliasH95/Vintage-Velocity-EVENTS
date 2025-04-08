@@ -194,7 +194,7 @@ button{
     justify-content: center;
     margin: 25px;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.3s;
     
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -278,6 +278,13 @@ li{
 iframe{
     border-color: black;
     margin: 10px;
+}
+
+.singularEvent:nth-of-type(even):hover{
+    transform: rotate(-2deg) scale(1.05);
+}
+.singularEvent:nth-of-type(odd):hover{
+    transform: rotate(2deg) scale(1.05);
 }
 
 @media (max-width: 599px) {

@@ -5,7 +5,7 @@
         "name":"OT-Treffen Wildenau",
         "date":"SO 13-04-2025",
         "time":"10:00",
-        "address":"Sommergasse, 4933 Wildenau",
+        "address":"Sommergasse (Georgimarkt), 4933 Wildenau",
         "distanceFromSchaerding":"37km",
         "link": "http://www.georgimarkt.at/",
         "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.7445249898424!2d13.314854712382388!3d48.207058171131315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47743ec09683672f%3A0x1df2cdd6ef4222c4!2sSommergasse%2C%204933!5e1!3m2!1sde!2sat!4v1744099329432!5m2!1sde!2sat"
@@ -22,7 +22,7 @@
 
     },
     {
-        "name":"OT-Treffen Schloss Katzenberg",
+        "name":"OT-Treffen Katzenberg",
         "date":"SO 01-05-2025",
         "time":"09:00-14:00",
         "address":"Katzenberg 1, 4982 Katzenberg",
@@ -34,7 +34,7 @@
         "name":"OT-Messe Tulln",
         "date":"SO 11-05-2025",
         "time":"09:00-18:00",
-        "address":"Katzenberg 1, 4982 Katzenberg",
+        "address":"Hauptpl. 6-7, 3430 Tulln a.d. Donau",
         "distanceFromSchaerding":"250km",
         "link":"https://www.oldtimermesse.at/",
         "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.367679110957!2d16.0519568!3d48.330943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d746bebb256b7%3A0xde3d7aaf1e4c754f!2sOldtimer%20Messe%20Tulln%20H.B.H.%20Veranstaltungs-GmbH!5e1!3m2!1sde!2sat!4v1744099463411!5m2!1sde!2sat"
