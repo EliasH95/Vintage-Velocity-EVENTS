@@ -195,7 +195,7 @@ button{
     margin: 25px;
     text-align: center;
     transition: 0.5s;
-    width: 400px;
+    width: 350px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -276,7 +276,7 @@ li{
 }
 
 iframe{
-    width: 350px;
+    width: 300px;
     height: 250px;
     border-color: black;
     margin: 10px;
